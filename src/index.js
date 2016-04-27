@@ -1,5 +1,5 @@
 import shell from 'shelljs'
-
+// 'sfdgsd'
 shell.exec(process.argv[2], {silent: true})
 const repeat = setInterval(() => {
   shell.exec("clear", {silent: true})
